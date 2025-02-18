@@ -15,5 +15,6 @@ public class RecordController {
     @GetMapping("/record/{id}")
     public Record findRecordbyId(@PathVariable long id){
         return recordService.findRecordbyId(id);
+
     }
 }
